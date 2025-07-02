@@ -18,9 +18,9 @@ func (r *TruthyRule) RunRule(value interface{}, context types.RuleFunctionContex
 
 	if value == nil {
 		isTruthy = false
-	} else if str, ok := value.(string); ok && str == "" {
+	} else if str, isString := value.(string); isString && str == "" {
 		isTruthy = false
-	} else if str, ok := value.(string); ok && str == "null" {
+	} else if str, isString := value.(string); isString && str == "null" {
 		isTruthy = false
 	}
 
