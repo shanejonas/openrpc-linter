@@ -1,9 +1,10 @@
 package rules
 
 import (
-	"openrpc-linter/types"
 	"strings"
 	"testing"
+
+	"github.com/shanejonas/openrpc-linter/types"
 
 	"gopkg.in/yaml.v3"
 )

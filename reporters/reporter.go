@@ -2,7 +2,8 @@ package reporters
 
 import (
 	"io"
-	"openrpc-linter/types"
+
+	"github.com/shanejonas/openrpc-linter/types"
 )
 
 type Reporter interface {

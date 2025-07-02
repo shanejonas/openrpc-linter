@@ -1,7 +1,6 @@
 {
   "info": {
     "title": "some example",
-    "description": "An example OpenRPC API",
     "version": "1.0.0"
   },
   "methods": [

@@ -3,7 +3,8 @@ package reporters
 import (
 	"encoding/json"
 	"io"
-	"openrpc-linter/types"
+
+	"github.com/shanejonas/openrpc-linter/types"
 )
 
 type JSONReporter struct{}
