@@ -3,7 +3,8 @@ package reporters
 import (
 	"fmt"
 	"io"
-	"openrpc-linter/types"
+
+	"github.com/shanejonas/openrpc-linter/types"
 )
 
 type TextReporter struct{}

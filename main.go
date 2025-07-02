@@ -1,6 +1,6 @@
 package main
 
-import "openrpc-linter/cmd"
+import "github.com/shanejonas/openrpc-linter/cmd"
 
 func main() {
 	cmd.Execute()

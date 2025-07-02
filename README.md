@@ -1,5 +1,7 @@
 # OpenRPC Linter
 
+[![CI](https://github.com/shanejonas/openrpc-linter/workflows/CI/badge.svg)](https://github.com/shanejonas/openrpc-linter/actions)
+
 Fast, extensible linter for OpenRPC documents.
 
 ## Usage

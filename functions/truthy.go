@@ -2,8 +2,9 @@ package functions
 
 import (
 	"fmt"
-	"openrpc-linter/types"
 	"strings"
+
+	"github.com/shanejonas/openrpc-linter/types"
 
 	"github.com/santhosh-tekuri/jsonschema/v6"
 )

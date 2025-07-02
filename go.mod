@@ -1,4 +1,4 @@
-module openrpc-linter
+module github.com/shanejonas/openrpc-linter
 
 go 1.24.4
 
