@@ -10,7 +10,6 @@ import (
 	"github.com/shanejonas/openrpc-linter/reporters"
 	"github.com/shanejonas/openrpc-linter/rules"
 	"github.com/shanejonas/openrpc-linter/types"
-
 	"github.com/spf13/cobra"
 	"gopkg.in/yaml.v3"
 )
